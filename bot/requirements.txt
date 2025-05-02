@@ -1,0 +1,5 @@
+telegram
+openai
+yaml
+python-telegram-bot
+firecrawl
