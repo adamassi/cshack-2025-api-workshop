@@ -1,7 +1,7 @@
 from openai import OpenAI
 import logging
 from typing import List, Dict, Any, Optional
-from secrets import OPENROUTER_API_KEY, OPENROUTER_API_BASE
+from stam import OPENROUTER_API_KEY, OPENROUTER_API_BASE
 
 # Set up logging
 logging.basicConfig(

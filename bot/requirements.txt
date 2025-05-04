@@ -1,5 +1,5 @@
 telegram
 openai
-yaml
+PyYAML
 python-telegram-bot
 firecrawl

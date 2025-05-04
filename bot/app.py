@@ -2,13 +2,15 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 from telegram.ext import ContextTypes
 from telegram import Update
 
+from stam import OPENROUTER_API_KEY, TELEGRAM_BOT_TOKEN, FIRECRAWL_API_KEY ,OPENROUTER_API_BASE
 import logging
 import yaml
-
-from secrets import OPENROUTER_API_KEY, OPENROUTER_API_BASE, FIRECRAWL_API_KEY
 from llm import LanguageModel
 from utils import MyFirecrawlApp
 
+#OPENROUTER_API_KEY= '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'
+#FIRECRAWL_API_KEY='fc-44c360bfd11247abbfa557e04a3862c9'
+#TELEGRAM_BOT_TOKEN='7888400063:AAEm7VyvkmKNxjGJUajEo-knMTbuclzHzF8'
 
 # Set up logging
 logging.basicConfig(

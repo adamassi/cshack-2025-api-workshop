@@ -18,12 +18,20 @@ In the technical part, we will learn how to build a simple Telegram bot that can
     git clone
     cd hackathon-2025-ai-api-workshop
     ```
+///////////
+1
+py -3.10 -m venv venv
+2
+.\venv\Scripts\Activate
+
+
+
 2. Create a virtual environment:
     ```bash
     conda create -n hackathon python=3.11
-    conda activate hackathon
+    conda activate hackathon`
     ```
-3. Install the required packages:
+3. Install the required packages:`
     ```bash
     pip install -r requirements.txt
     ```
@@ -53,7 +61,7 @@ In the technical part, we will learn how to build a simple Telegram bot that can
       ```
 5. Run the bot:
     ```bash
-    python app.py
+    python bot/app.py
     ```
 6. Open Telegram and search for your bot using the username you set when creating the bot.
 7. Start a chat with your bot. Use `/help` or `/start` commands to check if everything works. Then use the `/ask <LINK>` command to ask the bot to summarize a link.

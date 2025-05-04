@@ -1,6 +1,7 @@
 # Config files
 bot/config.yaml
 bot/secrets.py
+bot/stam.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
